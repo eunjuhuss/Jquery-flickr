@@ -1,0 +1,88 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: ivory;
+}
+
+
+section{
+    justify-content: center;
+}
+
+.logo{
+    width: 100px;
+    margin-right: 10px;
+}
+
+
+.input_box{
+margin-top: 50px;
+margin-bottom: 50px;
+text-align: center;
+margin-right: 10px;
+
+
+}
+
+.btn:hover{
+    background-color: #FF0085;
+    color: white;
+}
+
+
+.input_serch{
+    width: 40%;
+}
+
+
+.flexbox{
+    display: flex;
+    margin: 10px;  
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 30%;
+    
+}
+
+.float{
+    float: left;
+    margin: 5px;
+
+ 
+}
+
+.float img{
+    width: 250px;
+    height: 150px;    
+    object-fit: cover;
+ 
+    
+}
+
+
+.flexbox img{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    object-fit: cover;
+}
+
+.ui-dialog-title, .title{
+    color: #FF0085; 
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+.ui-widget-header {
+
+        font-weight: 300;
+}
+
+.flexbox img:hover{
+    opacity: 0.5;
+}
+
+.float img:hover{
+    opacity: 0.5;
+}
+
+
