@@ -26,7 +26,7 @@
                 $("#dialogPicturs").append(image);             
                 $("#dialogPicturs img").dialog({
                     title: event.target.src,
-                    width: 500,
+                    width: 550,
                     height: 500,
                     modal: true,
                     buttons: {
@@ -42,11 +42,11 @@
 
                 if ($(".flexbox").hasClass("flexbox")) {
                     $(".flexbox").removeClass("flexbox").addClass("float");
-                    $("#btn_flexbox").text("large images");
+                    $("#btn_flexbox").text("show float");
 
                 } else {
                     $(".float").removeClass("float").addClass("flexbox");
-                    $("#btn_flexbox").text("small images");
+                    $("#btn_flexbox").text("show flex");
 
                 };
 
@@ -88,7 +88,7 @@
                             
                         $("#dialogPicturs img").dialog({
                             title: event.target.src,
-                            width: 500,
+                            width: 550,
                             height: 500,
                             modal: true,
                             buttons: {
